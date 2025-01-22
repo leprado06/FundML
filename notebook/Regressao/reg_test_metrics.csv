@@ -1,3 +1,4 @@
+0,Algorithm,R-Squared,MSE,RMSE,MAE,MAPE
 0,Polynomial Regression - ElasticNet,0.089,443.763,21.098,16.759,8.331
 0,Linear Regression - ElasticNet,0.051,462.006,21.494,17.143,8.537
 0,Polynomial Regression - Lasso,0.09,442.882,21.096,16.741,8.302

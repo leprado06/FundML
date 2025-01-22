@@ -1,3 +1,4 @@
+0,Algorithm,Accuracy,Precision,Recall,F1
 0,Random Forest Classifier,1.0,1.0,1.0,1.0
 0,LogisticRegression Classifier,0.875,0.836,0.871,0.853
 0,KNN Classifier,0.957,0.973,0.926,0.949
