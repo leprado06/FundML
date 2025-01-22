@@ -1,0 +1,4 @@
+0,Random Forest Classifier,0.963,0.944,0.972,0.957
+0,LogisticRegression Classifier,0.871,0.833,0.869,0.85
+0,KNN Classifier,0.928,0.945,0.887,0.915
+0,Decision Tree Classifier,0.947,0.941,0.938,0.939

@@ -1,0 +1,10 @@
+0,Polynomial Regression - ElasticNet,0.068,445.115,21.098,16.738,8.578
+0,Linear Regression - ElasticNet,0.04,458.44,21.411,17.038,8.682
+0,Polynomial Regression - Lasso,0.068,445.059,21.096,16.735,8.565
+0,Polynomial Regression - Ridge,0.068,445.184,21.099,16.739,8.569
+0,Linear Regression - Ridge,0.04,458.441,21.411,17.038,8.681
+0,Linear Regression - Lasso,0.04,458.446,21.411,17.04,8.683
+0,Polynomial Regression,0.066,445.768,21.113,16.75,8.548
+0,Linear Regression,0.04,458.447,21.411,17.04,8.683
+0,DecisionTree Regressor,-0.323,631.878,25.137,17.363,7.166
+0,Random Forest Regressor,0.341,314.827,17.743,12.929,7.039
