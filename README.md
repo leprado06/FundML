@@ -3,18 +3,18 @@
 
 ## Descrição
 
-O projeto é um ensaio de diversos algoritimos de Machine Learning, seja de Classificação, Regressão ou Clusterização. Os modelos apresentados foram ajustados através dos principais hiperparamêtros de cada um, afim de melhorar as métricas de performance
+O projeto é um ensaio de diversos algoritmos de Machine Learning, seja de Classificação, Regressão ou Clusterização. Os modelos apresentados foram ajustados através dos principais hiperparamêtros de cada um, afim de melhorar as métricas de performance
 e controlar situações de Underfitting e Overfitting. 
 
 ## Objetivo
 
-Aprofundar o conhecimento sobre modelos de Machine Learning, utilizando a biblioteca scikit-learn. Aprofundar o entendimento e interpretação das métricas de performance dos algoritimos apresentados e gerar valor a partir das métricas.
+Aprofundar o conhecimento sobre modelos de Machine Learning, utilizando a biblioteca scikit-learn. Aprofundar o entendimento e interpretação das métricas de performance dos algoritmos apresentados e gerar valor a partir das métricas.
 
 ## Planejamento da solução
 
-A solução final terá 3 tabelas, apresentando a performance dos algoritimos com base em 3 conjuntos de dados diferentes, Treinamento, Validação e Teste.
+A solução final terá 3 tabelas, apresentando a performance dos algoritmos com base em 3 conjuntos de dados diferentes, Treinamento, Validação e Teste.
 
-## Algoritimos ensaiados
+## algoritmos ensaiados
 
 ### Classificação:
 Algoritmos: KNN, Decision Tree, Random Forest e Logistic Regression
@@ -72,10 +72,11 @@ Passo 9: Extrair o resultado e interpretar as métricas apresentadas
 Os algoritmos baseados em árvore apresentaram um desempenho melhor ao classificar os dados apresentados.
 
 ### Insight 2
-Os algoritimos de Classificação obtiveram performances excelentes com todos os conjuntos de dados. A maior variação entre treino e teste foi de 6,20% na métrica Recall utilizando o algoritimo de DecisionTree. A menor variação foi de apenas 0,23% na métrica Recall utilizando o algoritimo LogisticRegression.
+Os algoritmos de Classificação obtiveram performances excelentes com todos os conjuntos de dados. A maior variação entre treino e teste foi de 6,20% na métrica Recall utilizando o algoritmo de DecisionTree. A menor variação foi de apenas 0,23% na métrica Recall utilizando o algoritmo LogisticRegression.
 
 ### Insight 3
-Os algoritimos de regressão, DecisionTree e RandomForest, tiveram um overfitting no treinamento, 
+O algoritmo DecisionTree no problema de regressão teve um overfitting, de modo que o modelo não generalizou bem nos dados de validação e teste. Mesmo com diversos testes de hiperparametros e correlações de features, o modelo continuou não generalizando bem com os dados
+de validação e teste.
 
 ## Resultados
 
