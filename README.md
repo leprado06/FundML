@@ -45,7 +45,7 @@ Métricas de performance: Accuracy, Precision, Recall, F1-Score, R2, MSE, RMSE, 
 
 ## Desenvolvimento
 ### Estratégia da solução
-Para o objetivo de ensaiar os algoritmos de Machine Learning, eu vou escrever os códigos utilizando a linguagem Python, para treinar cada um dos algoritmos e vou variar seus principais parâmetros de ajuste de overfitting e observar a métrica final. O conjunto de valores que fizerem os algoritmos alcançarem a melhor performance, serão aqueles escolhidos para o treinamento final do algoritmo.
+Para o objetivo de ensaiar os algoritmos de Machine Learning, escreverei os códigos utilizando a linguagem Python. Para treinar cada um dos algoritmos, vou variar seus principais parâmetros de ajuste afim de evitar o underfitting ou overfitting e elevar a métrica final. O conjunto de valores que fizerem os algoritmos alcançarem a melhor performance, serão aqueles escolhidos para o treinamento final do algoritmo.
 
 ### O passo a passo
 Passo 1: Divisão dos dados em treino, teste e validação.
@@ -72,7 +72,7 @@ Passo 9: Extrair o resultado e interpretar as métricas apresentadas
 Os algoritmos baseados em árvore apresentaram um desempenho melhor ao classificar os dados apresentados.
 
 ### Insight 2
-Os algoritmos de Classificação obtiveram performances excelentes com todos os conjuntos de dados. A maior variação entre treino e teste foi de 6,20% na métrica Recall utilizando o algoritmo de DecisionTree. A menor variação foi de apenas 0,23% na métrica Recall utilizando o algoritmo LogisticRegression.
+Os algoritmos de Classificação obtiveram performances excelentes com todos os conjuntos de dados. A maior variação entre treino e teste foi de 6,20% na métrica Recall utilizando o algoritmo de DecisionTree. A menor variação foi de apenas 0,23% na métrica Recall utilizando o algoritmo LogisticRegression, demonstrando uma ótima generalização.
 
 ### Insight 3
 O algoritmo DecisionTree no problema de regressão teve um overfitting, de modo que o modelo não generalizou bem nos dados de validação e teste. Mesmo com diversos testes de hiperparametros e correlações de features, o modelo continuou não generalizando bem com os dados
