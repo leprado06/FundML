@@ -91,4 +91,14 @@ de validação e teste.
 ![Regressão](https://github.com/leprado06/FundML/blob/master/notebook/Regressao/metrics_reg.png)
 
 
+<br><br>
 
+## Conclusão
+
+Neste projeto de Machine Learning consegui aprofundar conhecimento tanto teórico quanto prático dos algoritmos de aprendizagem de máquina. Testei diversos hiperparamêtros em todos os algoritmos apresentados, medi a eficácia e o comportamento de cada métrica afim de 
+encontrar os melhores resultados. Aprendi novos métodos de regularizações de dados, correlações de features e validação cruzada para evitar overfitting ou underfitting.
+DecisionTree são extremamente eficazes em problemas de Classificação, mas não conseguem generalizar bem quando o assunto é regressão, onde fica claro a diferença entre DecisionTree e RandomForest, de modo que a RandomForest através da moda de N árvores, consegue predizer de forma muito mais efetiva.
+
+# Próximos passos
+
+Farei novos projetos envolvendo Machine Learning, com algoritmos diferentes, afim de responder perguntas de negócio. Sempre buscando conhecer cada vez mais sobre o aprendizado de máquina e como melhorar a performance.
