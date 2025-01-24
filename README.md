@@ -99,6 +99,6 @@ Neste projeto de Machine Learning consegui aprofundar conhecimento tanto teóric
 encontrar os melhores resultados. Aprendi novos métodos de regularizações de dados, correlações de features e validação cruzada para evitar overfitting ou underfitting.
 DecisionTree são extremamente eficazes em problemas de Classificação, mas não conseguem generalizar bem quando o assunto é regressão, onde fica claro a diferença entre DecisionTree e RandomForest, de modo que a RandomForest através da moda de N árvores, consegue predizer de forma muito mais efetiva.
 
-# Próximos passos
+## Próximos passos
 
 Farei novos projetos envolvendo Machine Learning, com algoritmos diferentes, afim de responder perguntas de negócio. Sempre buscando conhecer cada vez mais sobre o aprendizado de máquina e como melhorar a performance.
